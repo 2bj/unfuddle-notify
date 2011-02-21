@@ -1,0 +1,3 @@
+[submodule "vendor/XMPPHP"]
+	path = vendor/XMPPHP
+	url = http://github.com/heidisoft/XMPPHP.git

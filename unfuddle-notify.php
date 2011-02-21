@@ -44,7 +44,7 @@ $message = sprintf(
     $commit['message']
 );
 
-include 'XMPPHP/XMPP.php';
+include 'vendor/XMPPHP/XMPPHP/XMPP.php';
 
 $conn = new XMPPHP_XMPP(XMPP_HOST, XMPP_PORT, XMPP_USER, XMPP_PASSWD, XMPP_RESOURCE, XMPP_SERVER);
 
