@@ -26,7 +26,7 @@ define('XMPP_SERVER', 'talk.google.com'); // or you'r Google Apps for Your Domai
 // Run..
 $commit = (array) simplexml_load_string(file_get_contents('php://input'));
 
-if ( ! isset($committ['author-date']))
+if ( ! isset($commit['author-date']))
 {
     exit;
 }
